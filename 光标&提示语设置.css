@@ -1,0 +1,10 @@
+textarea:focus,input:focus {
+  color: #318fff;/* 光标颜色 */
+  color\0: #318fff;/* 光标颜色，兼容IE */
+  -webkit-text-fill-color: #333;/* 字体颜色 */
+}
+
+textarea:focus::placeholder,input:focus::placeholder{
+  -webkit-text-fill-color: transparent; /* 提示语不显示-字体透明 */
+  /*-webkit-text-fill-color: #777; !* 提示语显示-字体灰色 *! */
+}
